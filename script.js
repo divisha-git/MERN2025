@@ -54,4 +54,4 @@ var result = arr
   .map(num => num * 2)         
   .filter(num => num > 5)     
   .reduce((acc, num) => acc + num, 0); 
-console.log(result); // Output: 
+console.log(result);  

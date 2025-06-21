@@ -1,8 +1,13 @@
-import React from 'react'
+import React ,{useContext}from 'react'
+import Context from '../Hooks/Context'
 
 const Skills = () => {
+    const user = useContext(Context);
   return (
-    <div>Skills</div>
+     <div>
+      <h1>{user.name}</h1>
+      <h1>{user.phno}</h1>
+    </div>
   )
 }
 

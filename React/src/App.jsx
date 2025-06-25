@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Child from './components/Child'
 import Home from './pages/Home/'
 import About from './pages/About'
@@ -14,6 +13,7 @@ import State from './Hooks/State'
 import Effect from './Hooks/Effect'
 import Ref from './Hooks/Ref'
 import Reducer from './Hooks/Reducer'
+import Todo from './components/Todo'
 import { Route, Routes } from 'react-router-dom'
 
 
@@ -47,7 +47,7 @@ const App = () => {
         <Route path='/effect' element={<Effect />} />
         <Route path='/ref' element={<Ref />} />
         <Route path='/reducer' element={<Reducer />} />
-
+        <Route path='/todo' element={<Todo />} />
       </Routes>
 
     </div>

@@ -17,6 +17,7 @@ const Navbar = () => {
              <Link to ='/hooks' className='Link'>Hooks</Link>
              <Link to ='/ref' className='Link'>Ref</Link>
               <Link to ='/reducer' className='Link'>Reducer</Link>
+                <Link to ='/todo' className='Link'>Todo</Link>
             
         </nav>
     </div>
